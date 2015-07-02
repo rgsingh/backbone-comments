@@ -3,13 +3,13 @@ require.config({
   deps: ['main'],
 
   paths: {
-    jquery: '../components/jquery/jquery',
-    underscore: '../components/lodash/lodash',
-    backbone: '../components/backbone-amd/backbone',
-    markdown: '../components/markdown/lib/markdown',
-    moment: '../components/moment/moment',
-    tpl: '../components/requirejs-tpl/tpl',
-    'backbone.localStorage': '../components/backbone.localStorage/backbone.localStorage'
+    jquery: '../bower_components/jquery/jquery',
+    underscore: '../bower_components/lodash/lodash',
+    backbone: '../bower_components/backbone-amd/backbone',
+    markdown: '../bower_components/markdown/lib/markdown',
+    moment: '../bower_components/moment/moment',
+    tpl: '../bower_components/requirejs-tpl/tpl',
+    'backbone.localStorage': '../bower_components/backbone.localStorage/backbone.localStorage'
   },
 
   shim: {
