@@ -19,8 +19,9 @@ define(function(require, exports, module){
       }
 
       this.listenTo( this.model, 'remove', this.remove);
-
-      _.bindAll(this, 'updateTime');
+      
+      // mutates attribute `updateTime` by binding the returned function to `this`
+      _.bindAll(this, 'updateTime'); 
       this.timer = setTimeout(this.updateTime, this.timer_refresh);
     },
 

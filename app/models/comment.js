@@ -3,6 +3,11 @@ define(function(require, exports, module){
   var Backbone = require('backbone');
 
   module.exports = Backbone.Model.extend({
+
+    initialize: function(){
+        //debugger;
+    },
+
     validate: function(attrs){
       if( !attrs.email ){
         return 'Email address is required';
